@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawfect Dog Toys Shop</title>
+    <link rel="stylesheet" href="./toy.css">
+</head>
+
+<body>
+    <header>
+        <h1>🐾 Pawfect Dog Toys Products</h1>
+        <div class="cart-info" id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</div>
+    </header>
+    <br><br>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search toys...">
+        <select id="category">
+            <option value="all">All</option>
+            <option value="chew">Chew Toys</option>
+            <option value="smart">Smart & Interactive Toys</option>
+            <option value="plush">Plush & Soft Toys</option>
+            <option value="rope">Rope & Tug Toys</option>
+            <option value="ball">Ball & Fetch Toys</option>
+        </select>
+        <select id="sort">
+            <option value="az">A - Z</option>
+            <option value="za">Z - A</option>
+            <option value="plh">Low → High</option>
+            <option value="phl">High → Low</option>
+        </select>
+    </div>
+    <br><br><br>
+
+    <div class="products" id="product-list"></div>
+
+    <script src="./toy.js"></script>
+</body>
+
+</html>

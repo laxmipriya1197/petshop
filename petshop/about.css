@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fffaf5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.fade {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+  background: rgb(255, 238, 242);
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+button {
+  background: #ff7b00;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ff5500;
+  transform: scale(1.05);
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.member {
+  background: #ffe4b5;
+  width: 180px;
+  padding: 12px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.member:hover {
+  background: #ffd59b;
+  transform: scale(1.05);
+}
+
+footer {
+  background: rgb(255, 206, 216);
+  padding: 10px;
+  margin-top: 20px;
+}

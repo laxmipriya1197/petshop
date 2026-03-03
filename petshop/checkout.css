@@ -1,0 +1,80 @@
+body {
+  font-family: "Chilanka", cursive;
+  background: #fffaf5;
+  margin: 0;
+}
+
+header {
+  background: rgb(245, 169, 186);
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.checkout-box {
+  width: 90%;
+  max-width: 380px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease;
+  transition: transform 0.3s;
+}
+
+.checkout-box:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 8px 0 4px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: orange;
+  box-shadow: 0 0 8px rgba(255,165,0,0.3);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgb(240, 130, 150);
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

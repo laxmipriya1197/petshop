@@ -1,0 +1,75 @@
+ body {
+        font-family: Arial;
+        background: #fffaf5;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: rgb(245, 169, 186);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .subscribe-box {
+        max-width: 400px;
+        margin: 40px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .subscribe-box h2 {
+        color: #ff7b00;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .subscribe-box button {
+        width: 100%;
+        padding: 10px;
+        background: rgb(245, 169, 186);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .subscribe-box button:hover {
+        background: rgb(240, 130, 150);
+    }
+
+    .thankyou {
+        display: none;
+        color: #ff7b00;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    footer {
+    width: 100%;
+    background: rgb(247, 175, 192);
+    color: black;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+    position: fixed;       
+    bottom: 0;           
+    left: 0;
+    z-index: 1000;         
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}

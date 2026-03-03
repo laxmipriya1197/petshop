@@ -1,0 +1,64 @@
+Date : 2025-10-30 14:09:33
+Directory : c:\Users\work\Desktop\petshop
+Total : 38 files,  3502 codes, 119 comments, 795 blanks, all 4416 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PostCSS    |         12 |      1,948 |         81 |        452 |      2,481 |
+| HTML       |         15 |      1,073 |         12 |        179 |      1,264 |
+| JavaScript |         11 |        481 |         26 |        164 |        671 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                              |         38 |      3,502 |        119 |        795 |      4,416 |
++------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                       | language   | code       | comment    | blank      | total      |
++------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\work\Desktop\petshop\about.css        | PostCSS    |         90 |          0 |         17 |        107 |
+| c:\Users\work\Desktop\petshop\about.html       | HTML       |         58 |          0 |          9 |         67 |
+| c:\Users\work\Desktop\petshop\about.js         | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\work\Desktop\petshop\cart.css         | PostCSS    |        127 |          0 |         20 |        147 |
+| c:\Users\work\Desktop\petshop\cart.html        | HTML       |         21 |          0 |         12 |         33 |
+| c:\Users\work\Desktop\petshop\cart.js          | JavaScript |         34 |          0 |          5 |         39 |
+| c:\Users\work\Desktop\petshop\checkout.css     | PostCSS    |         53 |          0 |          7 |         60 |
+| c:\Users\work\Desktop\petshop\checkout.html    | HTML       |         28 |          0 |          7 |         35 |
+| c:\Users\work\Desktop\petshop\checkout.js      | JavaScript |          5 |          1 |          0 |          6 |
+| c:\Users\work\Desktop\petshop\clothing.css     | PostCSS    |         76 |          0 |         12 |         88 |
+| c:\Users\work\Desktop\petshop\clothing.html    | HTML       |         34 |          0 |          7 |         41 |
+| c:\Users\work\Desktop\petshop\clothing.js      | JavaScript |         68 |          0 |         23 |         91 |
+| c:\Users\work\Desktop\petshop\contact.html     | HTML       |        135 |          0 |         21 |        156 |
+| c:\Users\work\Desktop\petshop\food.css         | PostCSS    |         93 |          1 |         16 |        110 |
+| c:\Users\work\Desktop\petshop\food.html        | HTML       |         35 |          3 |          7 |         45 |
+| c:\Users\work\Desktop\petshop\food.js          | JavaScript |         68 |         12 |         30 |        110 |
+| c:\Users\work\Desktop\petshop\gallery.css      | PostCSS    |         75 |          0 |         12 |         87 |
+| c:\Users\work\Desktop\petshop\gallery.html     | HTML       |         53 |          0 |         13 |         66 |
+| c:\Users\work\Desktop\petshop\index.html       | HTML       |        222 |          0 |         21 |        243 |
+| c:\Users\work\Desktop\petshop\product.css      | PostCSS    |        368 |         25 |        103 |        496 |
+| c:\Users\work\Desktop\petshop\product.html     | HTML       |        105 |          6 |         18 |        129 |
+| c:\Users\work\Desktop\petshop\product.js       | JavaScript |         31 |          0 |          4 |         35 |
+| c:\Users\work\Desktop\petshop\script.js        | JavaScript |         50 |          0 |         39 |         89 |
+| c:\Users\work\Desktop\petshop\style.css        | PostCSS    |        759 |         55 |        217 |      1,031 |
+| c:\Users\work\Desktop\petshop\subscribe.html   | HTML       |        103 |          0 |         17 |        120 |
+| c:\Users\work\Desktop\petshop\testimonal.css   | PostCSS    |         76 |          0 |         12 |         88 |
+| c:\Users\work\Desktop\petshop\testimonal.html  | HTML       |         43 |          0 |         10 |         53 |
+| c:\Users\work\Desktop\petshop\testimonal.js    | JavaScript |          7 |          2 |          0 |          9 |
+| c:\Users\work\Desktop\petshop\toy.css          | PostCSS    |         77 |          0 |         12 |         89 |
+| c:\Users\work\Desktop\petshop\toy.html         | HTML       |         34 |          0 |          6 |         40 |
+| c:\Users\work\Desktop\petshop\toy.js           | JavaScript |         67 |          0 |         23 |         90 |
+| c:\Users\work\Desktop\petshop\treats.css       | PostCSS    |         77 |          0 |         12 |         89 |
+| c:\Users\work\Desktop\petshop\treats.html      | HTML       |         34 |          0 |          5 |         39 |
+| c:\Users\work\Desktop\petshop\treats.js        | JavaScript |         68 |          5 |         18 |         91 |
+| c:\Users\work\Desktop\petshop\user.html        | HTML       |        133 |          3 |         21 |        157 |
+| c:\Users\work\Desktop\petshop\walk&travel.css  | PostCSS    |         77 |          0 |         12 |         89 |
+| c:\Users\work\Desktop\petshop\walk&travel.html | HTML       |         35 |          0 |          5 |         40 |
+| c:\Users\work\Desktop\petshop\walk&travel.js   | JavaScript |         72 |          6 |         21 |         99 |
+| Total                                          |            |      3,502 |        119 |        795 |      4,416 |
++------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawfect Dog Treats Shop</title>
+    <link rel="stylesheet" href="./treats.css">
+</head>
+
+<body>
+    <header>
+        <h1>🐾 Pawfect Dog Treats & chews products</h1>
+        <div class="cart-info" id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</div>
+    </header>
+    <br><br>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search treats...">
+        <select id="category">
+            <option value="all">All</option>
+            <option value="biscuits">Biscuits & Cookies</option>
+            <option value="bones">Bones & Chews</option>
+            <option value="dental">Dental Treats</option>
+            <option value="jerky">Jerky Treats</option>
+            <option value="training">Training Treats</option>
+        </select>
+        <select id="sort">
+            <option value="az">A - Z</option>
+            <option value="za">Z - A</option>
+            <option value="plh">Low → High</option>
+            <option value="phl">High → Low</option>
+        </select>
+    </div>
+    <br><br>
+
+    <div class="products" id="product-list"></div>
+    <script src="./treats.js"></script>
+</body>
+
+</html>

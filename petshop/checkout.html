@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Pawfect Dog Food Shop</title>
+    <link rel="stylesheet" href="./checkout.css">
+</head>
+
+<body>
+    <header>✅ Checkout</header>
+
+    <div class="checkout-box">
+        <h2>Shipping & Payment</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="address">Address</label>
+        <textarea id="address" placeholder="Street, City, State, Zip" required></textarea>
+
+        <label for="payment">Payment Method</label>
+        <select id="payment" required>
+            <option value="">Select</option>
+            <option value="card">Credit/Debit Card</option>
+            <option value="cod">Cash on Delivery</option>
+            <option value="upi">UPI</option>
+        </select>
+
+        <button onclick="confirmOrder()">Place Order</button>
+    </div>
+    <script src="./checkout.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paw Palace - Login & Signup</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: "Chilanka", cursive;
+    background-color: #fffaf5;
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 420px;
+    background-color: rgb(255, 238, 242);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 25px;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    color: #EF7722;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-family: "Chilanka", cursive;
+}
+
+input:focus {
+    border-color: #EF7722;
+}
+
+/* Buttons */
+button {
+    width: 90%;
+    padding: 12px;
+    background-color: #EF7722;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #faa533;
+}
+
+/* Toggle links */
+p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+a {
+    color: #EF7722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hide Signup by default */
+#signup-box {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+</style>
+</head>
+<body>
+ <h1>WELCOME TO PAWPALACE SHOP🐶</h1>
+<div class="container">
+    
+    <!-- Login Section -->
+    <div id="login-box">
+        <h2>Welcome Back 🐾</h2>
+        <input type="text" placeholder="Email or Username" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="#" onclick="showSignup()">Sign Up</a></p>
+    </div>
+
+    <!-- Signup Section -->
+    <div id="signup-box">
+        <h2>Create Your Account 🐶</h2>
+        <input type="text" placeholder="Full Name" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <input type="password" placeholder="Confirm Password" required><br>
+        <button onclick="signup()">Sign Up</button>
+        <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+    </div>
+</div>
+
+<script>
+// Toggle Login & Signup visibility
+function showSignup() {
+    document.getElementById("login-box").style.display = "none";
+    document.getElementById("signup-box").style.display = "block";
+}
+function showLogin() {
+    document.getElementById("signup-box").style.display = "none";
+    document.getElementById("login-box").style.display = "block";
+}
+
+// Simple login/signup alerts for beginners
+function login() {
+    alert("Login successful! 🐾");
+}
+function signup() {
+    alert("Signup successful! 🐶");
+}
+</script>
+
+</body>
+</html>
